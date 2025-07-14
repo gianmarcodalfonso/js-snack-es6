@@ -29,3 +29,5 @@ for(let i = 1; i < bikeCatalog.length; i++){
   }
 }
 console.log(lightest)
+
+const rndmNum = (max) => Math.floor(Math.random() * max + 1 )
