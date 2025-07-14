@@ -65,8 +65,21 @@ const league = [
 console.log(league)
 
 for(let i = 0; i < league.length; i++){
-  league[i].points = rndmNum(32)
+  league[i].points = rndmNum(24)
   league[i].sufferedFouls = rndmNum(50)
 }
 
 console.log(league)
+
+const miniLeague = []
+
+for(let i = 0; i < league.length; i++){
+  let shortInfo = {
+    team : league[i].team,
+    sufferedFouls : league[i].sufferedFouls,
+  }
+
+  miniLeague.push(shortInfo)
+}
+
+console.log(miniLeague);
