@@ -21,6 +21,8 @@ const bikeCatalog = [
   }
 ]
 
+console.log(bikeCatalog)
+
 let lightest = bikeCatalog[0]
 
 for(let i = 1; i < bikeCatalog.length; i++){
@@ -31,3 +33,33 @@ for(let i = 1; i < bikeCatalog.length; i++){
 console.log(lightest)
 
 const rndmNum = (max) => Math.floor(Math.random() * max + 1 )
+
+const league = [
+  {
+    team : `Arsenal`,
+    points : 0,
+    sufferedFouls : 0,
+  },
+  {
+    team : `Juventus`,
+    points : 0,
+    sufferedFouls : 0,
+  },
+  {
+    team : `Real Mardid`,
+    points : 0,
+    sufferedFouls : 0,
+  },
+  {
+    team : `Bayern Munich`,
+    points : 0,
+    sufferedFouls : 0,
+  },
+  {
+    team : `Paris Saint-Germain`,
+    points : 0,
+    sufferedFouls : 0,
+  },
+]
+
+console.log(league)
