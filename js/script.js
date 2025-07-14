@@ -63,3 +63,10 @@ const league = [
 ]
 
 console.log(league)
+
+for(let i = 0; i < league.length; i++){
+  league[i].points = rndmNum(32)
+  league[i].sufferedFouls = rndmNum(50)
+}
+
+console.log(league)
